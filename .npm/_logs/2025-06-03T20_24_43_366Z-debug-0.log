@@ -1,0 +1,32 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.2
+2 info using node@v23.11.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install chalk
+7 verbose argv "install" "chalk"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-06-03T20_24_43_366Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-06-03T20_24_43_366Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:1098907648 maxSize:274726912 maxEntrySize:137363456
+12 silly idealTree buildDeps
+13 silly fetch manifest chalk@*
+14 silly packumentCache full:https://registry.npmjs.org/chalk cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/chalk 599ms (cache miss)
+16 silly packumentCache full:https://registry.npmjs.org/chalk set size:undefined disposed:false
+17 silly placeDep ROOT chalk@5.4.1 OK for: home@1.0.0 want: *
+18 silly reify moves {}
+19 silly audit bulk request { chalk: [ '5.4.1' ] }
+20 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-5.4.1.tgz 1ms (cache hit)
+21 silly tarball no local data for chalk@https://registry.npmjs.org/chalk/-/chalk-5.4.1.tgz. Extracting by manifest.
+22 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 385ms
+23 silly audit report {}
+24 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-5.4.1.tgz 469ms (cache miss)
+25 silly ADD node_modules/chalk
+26 verbose cwd /data/data/com.termux/files/home
+27 verbose os Linux 4.19.157-perf+
+28 verbose node v23.11.0
+29 verbose npm  v10.9.2
+30 verbose exit 0
+31 info ok
